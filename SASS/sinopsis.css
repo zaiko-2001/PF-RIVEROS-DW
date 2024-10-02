@@ -1,0 +1,50 @@
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+.main-content > div {
+  flex: 1;
+  margin: 20px;
+}
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .main-content > div {
+    margin: 10px 0;
+    width: 100%;
+  }
+}
+
+.imagen-sinopsis {
+  width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .imagen-sinopsis {
+    width: 80%;
+  }
+}
+
+.ancla-sinopsis {
+  text-decoration: underline;
+  font-size: 28px;
+  color: black;
+}
+.ancla-sinopsis:hover {
+  font-size: 30px;
+  transition: 0.2s;
+}
+.ancla-sinopsis:active {
+  font-size: 28px;
+  transition: 0.2s;
+}
+
+/*# sourceMappingURL=sinopsis.css.map */

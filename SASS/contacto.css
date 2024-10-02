@@ -1,0 +1,92 @@
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.formulario-contacto {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-left: 50px;
+}
+.formulario-contacto h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 28px;
+  color: #333;
+}
+
+.grupo-formulario {
+  margin-bottom: 15px;
+}
+.grupo-formulario label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+.grupo-formulario input,
+.grupo-formulario textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  box-sizing: border-box;
+}
+.grupo-formulario input:focus,
+.grupo-formulario textarea:focus {
+  outline: none;
+  border-color: #333;
+}
+
+button {
+  width: 80%;
+  padding: 10px;
+  background-image: linear-gradient(rgba(161, 161, 161, 0), rgba(161, 161, 161, 0)), url(fondos/gokunube.gif);
+  background-size: cover;
+  background-position: center;
+  color: black;
+  font-size: 25px;
+  font-family: "Bebas Neue", sans-serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  transform: scale(1.1);
+}
+
+img {
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .formulario-contacto {
+    width: 90%;
+    padding: 15px;
+    margin-left: 0;
+  }
+  .formulario-contacto h2 {
+    font-size: 24px;
+  }
+  .grupo-formulario label {
+    font-size: 16px;
+  }
+  .grupo-formulario input,
+  .grupo-formulario textarea {
+    width: 100%;
+    padding: 8px;
+  }
+  button {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=contacto.css.map */

@@ -1,0 +1,59 @@
+.personajes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.personajes .personaje {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.personajes .personaje .imagen-personaje {
+  width: auto;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.personajes p {
+  width: 70%;
+  justify-content: space-around;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .personajes {
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 10px;
+  }
+  .personajes .personaje {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .personajes .personaje .imagen-personaje {
+    width: 110%;
+    height: auto;
+  }
+  .personajes .personaje .img2 {
+    width: 70%;
+    height: auto;
+  }
+  .personajes .personaje #hedo {
+    width: 50%;
+    height: auto;
+  }
+  .personajes h1 {
+    font-size: 24px;
+  }
+  .personajes p {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+/*# sourceMappingURL=personajes.css.map */
