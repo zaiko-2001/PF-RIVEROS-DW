@@ -12,6 +12,12 @@ Este proyecto es una aplicación web diseñada con un enfoque en la adaptabilida
   
 - **Bootstrap**: En la página de contacto, se ha implementado Bootstrap para facilitar el diseño y la funcionalidad de los formularios y otros elementos, mejorando la consistencia y la adaptabilidad a diferentes tamaños de pantalla.
 
+- **SASS**: Se utilizó SASS como preprocesador de CSS para facilitar la escritura y mantenimiento del código CSS, permitiendo el uso de variables, anidamiento y mixins.
+
+- **animate.css**: Se agregaron animaciones utilizando la librería `animate.css` para mejorar la experiencia del usuario con transiciones suaves y atractivas.
+
+- **AOS (Animate On Scroll)**: Se implementaron animaciones al hacer scroll con la librería `AOS`, añadiendo efectos visuales que se activan al desplazarse por la página.
+
 ## Características
 
 - **Adaptabilidad a pantallas pequeñas**: Todo el sitio ha sido diseñado y desarrollado para ser completamente responsive, ajustando su diseño en pantallas de diferentes tamaños.
@@ -27,7 +33,7 @@ Este proyecto es una aplicación web diseñada con un enfoque en la adaptabilida
 
 ## Uso
 
-Navegar por las diferentes secciones del sitio para observar el uso de Flexbox, Grid y Bootstrap en las páginas respectivas, y cómo cada página se adapta a distintos dispositivos.
+Navegar por las diferentes secciones del sitio para observar el uso de Flexbox, Grid, Bootstrap, SASS y las animaciones de `animate.css` y `AOS` en las páginas respectivas, y cómo cada página se adapta a distintos dispositivos.
 
 ## Créditos
 
