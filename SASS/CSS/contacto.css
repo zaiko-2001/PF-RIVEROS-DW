@@ -50,7 +50,8 @@ button {
   background-image: linear-gradient(rgba(161, 161, 161, 0), rgba(161, 161, 161, 0)), url(fondos/gokunube.gif);
   background-size: cover;
   background-position: center;
-  color: black;
+  color: rgb(255, 255, 255);
+  text-shadow: 6px 6px 8px black;
   font-size: 25px;
   font-family: "Bebas Neue", sans-serif;
   border: none;

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import 'animate.css';
+@import '_variables.scss';
 
 * {
   padding: 0;
@@ -10,15 +11,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Variables */
-$header-background: linear-gradient(
-      rgba(161, 161, 161, 0.5),
-      rgba(161, 161, 161, 0.5)
-    ),
-    url(fondos/background.jpg) center/cover;
-$font-family-bebas: "Bebas Neue", sans-serif;
-$black: black;
-$gray: rgba(161, 161, 161, 0.5);
 
 /* Header */
 

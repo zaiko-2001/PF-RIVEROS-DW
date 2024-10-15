@@ -9,7 +9,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Variables */
 /* Header */
 .header {
   background: linear-gradient(rgba(161, 161, 161, 0.5), rgba(161, 161, 161, 0.5)), url(fondos/background.jpg) center/cover;
